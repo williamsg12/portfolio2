@@ -1,18 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import SIdebar from './Componenets/SIdebar';
 
 function App() {
   return (
-    <div className="App">  
+    
       <div>
-        <h1>Welcome</h1>
-      </div>
-
-      <div className='logo'>
         <img src={logo} className="App-logo" alt="logo" />
+      <SIdebar />
       </div>
 
-    </div>
   );
 }
 
